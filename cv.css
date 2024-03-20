@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background-color: #f6f6f6;
+    
+}
+
+.context{
+    
+    text-decoration: none;
+    border-width: 4px;
+    border-color: blue transparent blue transparent;  
+    border-style: solid;
+    background:white;
+    padding: 15px;
+    padding-left: 10px;
+    background-image: url('/images/background1.jpeg');
+    
+
+}
+
+.context ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+.context ul li{
+    
+    margin-left: 30px;
+    padding-left: 10px;
+    color:black;
+    font-weight: 750;
+    
+}
+.context ul li a {
+    text-decoration: none;
+    color:black;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+.context ul li a:hover{
+    color:cornflowerblue; 
+   font-weight: 700;
+   
+   border-radius: 10px;
+   /* padding: 2px; */
+   
+   
+   text-decoration: 5px underline rgb(238, 227, 7);
+    text-underline-offset: 16.7px;
+}
+#active{
+    color: cornflowerblue;
+    text-decoration: 3px underline yellow;
+    text-underline-offset: 3px;
+}
+.container{
+    position: relative;
+    display:flex;
+    background-color:rgb(153, 151, 151);
+}
+.container .left{
+    position: fixed;
+    height: 80vw;
+    width: 16vw;
+    background-color:rgb(153, 151, 151);
+    /* box-shadow: 0px 2px 10px black; */
+}
+.container .right{
+    background-color: #f6f6f6;
+    margin-left: 18vw;
+    
+}
+.container .left{
+    padding:1% 1%;
+   
+}
+.container .left ul{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.container .left ul li{
+    font-size: 17px;
+    color: white;
+    /* color: black; */
+    font-weight: none;
+    padding-top: 10px;
+    
+}
+.container .left ul li:hover{
+    text-decoration: 2px solid yellow underline;
+    text-underline-offset: 2px;
+    
+}
+#border2{
+    margin-left: 4vh;
+    font-size: 25px;
+}
+.col-1{
+    margin-left: 4vh;
+    margin-right: 2vh;
+}
+.col-1 h2{
+    color: black;
+    font-size: 21px;
+    font-weight: normal;
+}
+.col-1 b{
+    font-size: 18px;
+}
+.col-1 p{
+    font-size: 17px;
+   color:rgb(85, 84, 84);
+   text-align: justify;
+}
+.col-1 p a{
+    color:rgb(85, 84, 84) ;
+    text-decoration: none;
+}
+.col-1 #date{
+    color: black;
+    font-size: 18px;
+}
+.col-1 #h-1{
+    font-size: 18px;
+    font-weight:700;
+}
+.container .left #pdf{
+    list-style: none;
+    margin-top: 8rem;
+}
+#pdf li{
+    list-style: none;
+}
+#pdf li a {
+    list-style: none;
+    color: white;
+}
+.col-1 p i a{
+    font-size: 16px;
+    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-underline-offset: 2px;
+}
+.col-1 p i a:hover{
+    font-size: 18px;
+    transition:.3s ease ;
+}
+.col-1 #line{
+    font-size: 16px;
+    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-underline-offset: 2px;
+}
+.col-1 #line:hover{
+    font-size: 18px;
+    transition:.3s ease ;
+}
+#line{
+    color:rgb(85, 84, 84) ;
+    font-size: 16px;
+    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-underline-offset: 2px;
+}
+#line:hover{
+    font-size: 18px;
+    transition:.3s ease ;
+}

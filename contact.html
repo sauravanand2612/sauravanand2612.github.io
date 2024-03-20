@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    
+</head>
+<body>
+
+<div  class="container">
+    <div class="context">
+        <ul id="main">
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="about.html"> About</a></li>
+            <li><a href="cv.html"> CV </a></li>
+            <li><a href="myproject.html">Project </a></li>
+            <li><a href="#" id="active"> Contact </a></li>
+        </ul>
+    </div>
+    <script>
+        function validateForm() {
+    var name = document.forms[0]["name"].value;
+    var contact = document.forms[0]["contact"].value;
+    var email = document.forms[0]["email"].value;
+    var message = document.forms[0]["message"].value;
+    
+    if (name == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+    
+    if (contact == "") {
+      alert("Contact must be filled out");
+      return false;
+    }
+    
+    if (email == "") {
+      alert("Email must be filled out");
+      return false;
+    }
+    
+    if (message == "") {
+      alert("Message must be filled out");
+      return false;
+    }
+    
+    return true;
+  }
+    </script>
+    <div class="main1">
+        <h1 id="highlight">GET IN TOUCH WITH ME </h1><br>
+        <P>In Case You Want to know more about me;need more details, want to discuss, or have any suggestions about my research work or blogs, then please feel free to contact me.</P><br>
+        <br>
+        <h1 id="highlight">CONTACT INFORMATION</h1>
+        
+        <h2>Address : </h2>
+        <div class="main2">
+        <p id="demo3">Saurav Anand</p>
+        <P id="demo3">University of Pavia</P>
+        <p id="demo3">Department of Electrical, Computer and Biomedical Engineering</p>
+        <p  id="demo3"> <a href="https://www.google.com/maps/place/School+of+Engineering/@45.2028017,9.1342299,600m/data=!3m1!1e3!4m14!1m7!3m6!1s0x478727048bda6819:0x1fcd5576bed1d93b!2sSchool+of+Engineering!8m2!3d45.2028017!4d9.1368048!16s%2Fg%2F11fylnbzck!3m5!1s0x478727048bda6819:0x1fcd5576bed1d93b!8m2!3d45.2028017!4d9.1368048!16s%2Fg%2F11fylnbzck" target="_blank">Via Adolfo Ferrata, 5, 27100 Pavia PV, Italy</a></p>
+       </div><br>
+        <h2>Phone:</h2>
+        <p id="demo3">+39 333xxxxx11</p>
+        <h2>Fax:</h2>
+        <P id="demo3">+3938xxxxxx11</P>
+        <h2>Email:</h2>
+        <P> <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJTNHMpvSKbvdMnSxbCPxwDbtwTZLnfpJbpxZCHDKplcXHHzJdnfqPmFwQGvdgnRJHmjhZg" target="_blank" id="demo3">sauravanand2698 (at) gmail (dot) com </a></P>
+    </div>
+    <div class="demo4">
+        <form action="submit.php" method="POST" onsubmit="return validateForm()">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="contact">Contact:</label><br>
+        <input type="tel" id="contact" name="contact"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input id="button" type="submit" value="Submit">
+        </form>
+    </div>
+    </div>
+</form>
+
+</body>
+</html>
