@@ -16,16 +16,19 @@ body{
 .container .context{
     text-decoration: none;
     border-width: 4px;
-    border-color: blue transparent blue transparent;  /* up to four colors */
+    border-color: blue transparent blue transparent;  
     border-style: solid;
     background:white;
     padding: 15px;
     padding-left: 10px;
+    background-image: url('/images/background1.jpeg');
 
 }
 
 .container .context ul{
-    display:inline-flex;
+    display:flex;
+    align-items: center;
+    justify-content: center;
     padding-left: 5px;
     text-decoration: none;
     list-style: none;
@@ -48,53 +51,64 @@ body{
     
 }
 .container .context ul li a:hover{
-    color:black; 
-   
+    color:cornflowerblue; 
    font-weight: 700;
    
    border-radius: 10px;
-   padding: 2px;
+   /* padding: 2px; */
    
-   font-size: 21px;
+   
    text-decoration: 5px underline rgb(238, 227, 7);
-   text-underline-offset: 16.7px;
+    text-underline-offset: 16.7px;
+}
+#active{
+    color: cornflowerblue;
+    text-decoration: 3px underline yellow;
+    text-underline-offset: 3px;
 }
 
 .main{
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 7vw;
 
 }
 .main h1{
-    color:black;
+    color: rgb(6, 130, 231);
     font-size: 28px;
     font-weight: normal;
+    margin-left: 5vw;
+    /*color:black;
+    font-size: 28px;
+    font-weight: normal; */
    
     
 }
 
 h2{
     color:black;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: normal;
-    margin-top: 20px;
+    margin-left: 5vw;
+    /*font-size: 23px;
+    font-weight: normal;
+    margin-top: 20px;*/
    
     
 }
 ol{
-    margin-left: 55px;
     color:rgb(85, 84, 84);
+    margin-left: 6vw;
     font-size: 20px;
     
     
 }
 OL LI{
-    margin-top: 10PX;
+    margin-top:11PX;
 }
 #list{
     list-style: none;
 }
-@keyframes changecolor{
+/*@keyframes changecolor{
     0%{
         color:aqua
     }
