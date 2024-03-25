@@ -167,7 +167,7 @@ body{
 #line{
     color:cornflowerblue ;
     font-size: 16px;
-    text-decoration:1px solid cornflowerblue  underline;
+    text-decoration:1px cornflowerblue  underline;
     text-underline-offset: 2px;
 }
 #line:hover{
