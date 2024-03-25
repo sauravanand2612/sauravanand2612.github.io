@@ -148,7 +148,7 @@ body{
 }
 .col-1 p i a{
     font-size: 16px;
-    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-decoration:1px solid cornflowerblue  underline;
     text-underline-offset: 2px;
 }
 .col-1 p i a:hover{
@@ -157,7 +157,7 @@ body{
 }
 .col-1 #line{
     font-size: 16px;
-    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-decoration:1px solid cornflowerblue  underline;
     text-underline-offset: 2px;
 }
 .col-1 #line:hover{
@@ -165,9 +165,9 @@ body{
     transition:.3s ease ;
 }
 #line{
-    color:rgb(85, 84, 84) ;
+    color:cornflowerblue ;
     font-size: 16px;
-    text-decoration:1px solid rgb(85, 84, 84)  underline;
+    text-decoration:1px solid cornflowerblue  underline;
     text-underline-offset: 2px;
 }
 #line:hover{
