@@ -185,3 +185,18 @@
     color: cornflowerblue;
     transition: .2s ease;
 }
+
+
+
+
+
+
+/* Responsive styles */
+
+@media only screen and (min-width: 480px) and (max-width: 667px) {
+    .container {
+        max-width: 90%; /* You can adjust this percentage based on your design */
+        margin: 0 auto; /* Center the container */
+    }
+}
+
