@@ -101,7 +101,7 @@ p{
 }
 p a{
     color:rgb(85, 84, 84);
-    text-decoration: 1px underline rgb(85, 84, 84);
+    text-decoration: 1px underline cornflowerblue;
 }
 h2{
     margin-left: 10px;
