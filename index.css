@@ -226,7 +226,8 @@
         margin-left: 10vh;
     }
     .main .left p{
-        margin-top: 30px;
+        font-size:20px;
+        margin-top: 1vh;
     }
     .footer1{
         margin-top: 3vh;
@@ -262,7 +263,8 @@
         margin-left: 3vh;
     }
     .main .left p{
-        margin-top: 30px;
+        font-size:20px;
+        margin-top: 1vh;
     }
     .footer1{
         margin-top: 3vh;
