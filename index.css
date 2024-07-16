@@ -203,6 +203,8 @@
     }
     #main{
         text-align: center;
+        margin-top: 10vh;
+        font-size: 17px;
     }
     .main .right{
         margin-top: 4vh;
