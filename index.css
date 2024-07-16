@@ -203,8 +203,8 @@
     }
     #main{
         text-align: center;
-        margin-top: 10vh;
-        font-size: 17px;
+        margin-top: 3vh;
+        font-size: 15px;
     }
     .main .right{
         margin-top: 4vh;
@@ -249,7 +249,7 @@
     }
     .main .left hr{
         width: 200px;
-        margin-left: 10vh;
+        margin-left: 3vh;
     }
     .main .left p{
         margin-top: 1vh;
