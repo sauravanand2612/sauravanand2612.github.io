@@ -205,8 +205,12 @@
         text-align: center;
         margin-left:-20px;
         margin-top: 3vh;
-        font-size: 15px;
+       
     }
+    #main li a{
+         font-size: 16px;
+    }
+    
     .main .right{
         margin-top: 4vh;
     }
@@ -221,6 +225,9 @@
         width: 200px;
         margin-left: 10vh;
     }
+    .main .left p{
+        margin-top: 1vh;
+    }
     .footer1{
         margin-top: 3vh;
     }
@@ -233,9 +240,7 @@
     
 }
 @media (max-width:448px){
-    .header{
-        background:blue;
-    }
+    
     .header h1{
         font-size: 5vh;
         
