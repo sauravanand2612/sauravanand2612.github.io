@@ -1,95 +1,86 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
 }
 
-.container{
+.container {
     position: relative;
-    
 }
-.context{
+
+.context {
     position: relative;
     height: 34vh;
     width: 100%;
-    background-image: url('/images/homebackground2.jpg');
+    background: url('./images/homebackground2.jpg');
     background-repeat: repeat-x;
     background-size: 70% 100%;
     margin: 0px;
 }
-.header{
+
+.header {
     display: grid;
-    
     margin-left: 10vw;
 }
-.header #main #active{
+
+.header #main #active {
     color: cornflowerblue;
     text-decoration: 3px underline yellow;
     text-underline-offset: 3px;
 }
-.header h2{
+
+.header h2 {
     color: #fff;
     margin-top: 3vw;
-    
 }
-.header h1{
+
+.header h1 {
     color: white;
     font-weight: bold;
     font-size: 10vh;
 }
-.header ul{
+
+.header ul {
     display: flex;
     margin-left: 27%;
-    
     text-decoration: none;
     list-style: none;
-    
 }
-.header ul li{
+
+.header ul li {
     display: inline-flex;
     justify-content: flex-start;
     padding: 15px;
-    color:white;
+    color: white;
     font-weight: 750;
-    
-    
-}
-.header ul li a {
-  
-    text-decoration: none;
-    color:white;
-    text-decoration: underline;
-    text-underline-offset: 1.2px;
-    
-    font-size: 20px;
-    transition: .5s ease;
-    
 }
 
-.header ul li a:hover{
-     color:cornflowerblue; 
-    
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 1.2px;
+    font-size: 20px;
+    transition: .5s ease;
+}
+
+.header ul li a:hover {
+    color: cornflowerblue;
     font-weight: 700;
-    
     border-radius: 10px;
-    /* padding: 2px; */
-    
-    
     text-decoration: 3px underline yellow;
     text-underline-offset: 3px;
-    
 }
-.main{
+
+.main {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    flex-wrap: wrap; /* Added for better responsiveness */
 }
-.main .right{
-    /* position: relative; */
+
+.main .right {
     margin: 1vw;
     margin-left: 15vw;
     height: 240px;
@@ -97,43 +88,28 @@
     border-radius: 50%;
     background-image: url('images/myPhoto.jpeg');
     background-size: cover;
-    border:3px solid rgb(152, 150, 150);
-    
-
-
+    border: 3px solid rgb(152, 150, 150);
 }
 
-
-.main .left h1{
-    
+.main .left h1 {
     position: relative;
     margin-top: -5vw;
     margin-right: 32vw;
     font-size: 3vw;
-    color:rgb(118, 116, 116);
-
+    color: rgb(118, 116, 116);
 }
-/* .main .left h1:hover{
-    
-    
-    animation-name: ani;
-    animation-duration: 1s;
-    animation-iteration-count:initial;
-    
-} */
-@keyframes ani{
-    0%{
+
+@keyframes ani {
+    0% {
         transform: translateX(60px)
-        
     }
-    
-    100%{
+    100% {
         color: cornflowerblue;
         transform: translateX(0px);
     }
-    
 }
-.main .left p{
+
+.main .left p {
     position: relative;
     margin-top: 1vw;
     font-size: 20px;
@@ -141,62 +117,146 @@
     color: rgba(137, 135, 135, 0.938);
 }
 
-
-.footer1{
+.footer1 {
     position: relative;
     display: grid;
     align-items: center;
     justify-content: center;
-    
 }
-.footer1 ul{
+
+.footer1 ul {
     position: relative;
     display: flex;
     text-decoration: none;
-
 }
-.footer1 ul li{
+
+.footer1 ul li {
     display: flex;
     padding-left: 30px;
     font-size: 5vh;
     text-decoration: none;
     color: rgb(109, 108, 108);
-    
-    
-    
-   
-
 }
-.footer1 ul li a{
+
+.footer1 ul li a {
     text-decoration: none;
-    color:rgb(109, 108, 108) ;
-
+    color: rgb(109, 108, 108);
 }
-.footer1 p{
+
+.footer1 p {
     margin-top: 3vw;
     display: grid;
     align-items: center;
     justify-content: center;
     font-size: 16px;
     color: cornflowerblue;
-
 }
-.footer1 ul li a:hover{
+
+.footer1 ul li a:hover {
     color: cornflowerblue;
     transition: .2s ease;
 }
 
-
-
-
-
-
 /* Responsive styles */
-
-@media only screen and (min-width: 480px) and (max-width: 667px) {
-    .container {
-        max-width: 90%; /* You can adjust this percentage based on your design */
-        margin: 0 auto; /* Center the container */
+@media only screen and (max-width: 1200px) {
+    .header h1 {
+        font-size: 8vh;
+    }
+    .header h2 {
+        margin-top: 2vw;
+        font-size: 2vh;
+    }
+    .header ul {
+        margin-left: 10%;
+    }
+    .main .left h1 {
+        margin-right: 20vw;
+        font-size: 4vw;
+    }
+    .main .right {
+        height: 200px;
+        width: 200px;
+        margin-left: 10vw;
     }
 }
 
+@media only screen and (max-width: 992px) {
+    .header ul {
+        
+        align-items: center;
+    }
+    .header ul li {
+        padding: 10px;
+    }
+    .main .left h1 {
+        margin-right: 0;
+        text-align: center;
+    }
+    .main .right {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 5vh;
+    }
+    #main{
+        text-align: center;
+    }
+    .main .right{
+        margin-top: 4vh;
+    }
+    .main .left{
+        margin-top: 4vh;
+        margin-left: 3vh;
+    }
+    .main .left h1{
+        font-size:3vh;
+    }
+    .main .left hr{
+        width: 200px;
+        margin-left: 10vh;
+    }
+    .footer1{
+        margin-top: 3vh;
+    }
+    .footer1 li a{
+        font-size: 4vh;
+    }
+    .footer1 p{
+        font-size: 2.3vh;
+    }
+    
+}
+@media (max-width:448px){
+    .header h1{
+        font-size: 5vh;
+        
+    }
+    #main li a {
+        margin-top: 10vh;
+        font-size: 16px;
+    }
+    .main .right{
+        margin-top: 3vh;
+    }
+    .main .left{
+        margin-top: 4vh;
+        margin-left: 3vh;
+    }
+    .main .left hr{
+        width: 200px;
+        margin-left: 10vh;
+    }
+    .main .left p{
+        margin-top: 1vh;
+    }
+    .footer1{
+        margin-top: 3vh;
+    }
+    .footer1 li a{
+        font-size: 3vh;
+    }
+
+}
