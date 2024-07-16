@@ -233,6 +233,8 @@
     
 }
 @media (max-width:448px){
+    .header{
+        background:blue:
     .header h1{
         font-size: 5vh;
         
