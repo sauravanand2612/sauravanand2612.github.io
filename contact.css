@@ -230,7 +230,7 @@ h2 a {
     font-weight: normal;
 }
 
-/* Responsive Styling */
+
 @media screen and (max-width: 1024px) {
     .main1, .demo4 {
         width: 100%;
@@ -247,6 +247,67 @@ h2 a {
         position: relative;
         left: 0;
         top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main1, .demo4 {
+        width: 100%;
+        margin-left: 0;
+    }
+    #main li {
+        font-size: 18px;
+      margin: 0px 12px;
+    }
+    #demo3 {
+        margin-left: 0;
+    }
+    input, #message {
+        width: 100%;
+    }
+    .main1, .demo4 {
+        width: 100%;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .main1 h1, .demo4 h1, h2 {
+        font-size: 18px;
+    }
+    p, label {
+        font-size: 16px;
+    }
+    #button {
+        width: 100%;
+    }
+    input, #message {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #main li {
+        font-size: 18px;
+      margin: 0px 12px;
+    }
+    .main1, .demo4 {
+        width: 100%;
+        margin-left: 0;
+    }
+    .main1 h1, .demo4 h1, h2 {
+        font-size: 18px;
+    }
+    p, label {
+        font-size: 16px;
+    }
+    #button {
+        width: 100%;
+    }
+    input, #message {
+        width: 100%;
+        font-size: 16px;
     }
 }
 
