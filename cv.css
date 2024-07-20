@@ -206,3 +206,34 @@ body {
         padding: 10px;
     }
 
+
+    .col-1 {
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+
+    #border2 {
+        font-size: 22px;
+    }
+
+    .col-1 h2 {
+        font-size: 19px;
+    }
+
+    .col-1 b {
+        font-size: 16px;
+    }
+
+    .col-1 p {
+        font-size: 15px;
+    }
+
+    .col-1 #date, .col-1 #h-1 {
+        font-size: 16px;
+    }
+
+    #pdf {
+        margin-top: 4rem;
+    }
+}
+
