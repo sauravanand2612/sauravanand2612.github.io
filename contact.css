@@ -303,10 +303,10 @@ h2 a {
         font-size: 16px;
     }
     #button {
-        width: 100%;
+        width: 90%;
     }
     input, #message {
-        width: 100%;
+        width: 90%;
         font-size: 16px;
     }
 }
