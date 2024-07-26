@@ -293,6 +293,7 @@
     .container .left #pdf{
         display:flex;
         height:10px;
+        margin-top:0px;
         justify-content:center;
        
        
