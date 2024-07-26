@@ -278,6 +278,9 @@
         font-size: 16px;
       margin: 0px 8px;
     }
+    .container{
+        height:20px;
+    }
     .container .left, .container .right {
         padding: 10px;
     }
