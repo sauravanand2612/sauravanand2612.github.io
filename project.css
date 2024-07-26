@@ -45,11 +45,11 @@
     transition: color 0.3s, text-decoration 0.3s;
   }
   
-  #main li a:hover{
+  #main ul li a:hover{
        color: cornflowerblue;
     text-decoration: underline 3px yellow;
   }
-  #active {
+  .context #main #active {
     color: cornflowerblue;
     text-decoration: underline 3px yellow;
   }
