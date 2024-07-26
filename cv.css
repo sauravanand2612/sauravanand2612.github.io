@@ -291,7 +291,9 @@
         display:none;
     }
     .container .left #pdf{
-        display:block;
+        display:flex;
+        height:10px;
+        justify-content:center;
        
     }
     .col-1 {
