@@ -33,19 +33,19 @@
     list-style: none;
   }
   
-  #main ul li {
+  #main li {
     margin: 0 15px;
     font-weight: 750;
   }
   
-  #main ul li a {
+  #main li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     transition: color 0.3s, text-decoration 0.3s;
   }
   
-  #main ul li a:hover{
+  #main li a:hover{
        color: cornflowerblue;
     text-decoration: underline 3px yellow;
   }
