@@ -33,12 +33,12 @@
     list-style: none;
   }
   
-  #main li {
+  #main ul li {
     margin: 0 15px;
     font-weight: 750;
   }
   
-  #main li a {
+  #main ul li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
