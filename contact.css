@@ -11,6 +11,16 @@ body {
     padding: 0;
  }
 
+.context {
+    text-decoration: none;
+    border-width: 4px;
+    border-color: blue transparent blue transparent;  
+    border-style: solid;
+    background: white;
+    padding: 15px;
+    padding-left: 10px;
+    background-image: url('./images/background1.jpeg');
+}
 #main {
     display: flex;
     align-items: center;
