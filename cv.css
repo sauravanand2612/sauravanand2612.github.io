@@ -278,23 +278,21 @@
         font-size: 16px;
       margin: 0px 8px;
     }
-    .container{
-        height:20px;
-    }
+    
     .container .left, .container .right {
         padding: 10px;
     }
-    .conatiner .left{
-        height:20px;
-        widht:100%;
-    }
+   .conatiner .left{
+        display:flex;
+       align-items:center;
+        justify-content:center;
+   }
     .container .left ul li{
         display:none;
     }
     .container .left #pdf{
-        display:flex;
-        justify-content: flex-start;
-        flex-item:flex-start;
+        display:block;
+       
     }
     .col-1 {
         margin-left: 2vh;
