@@ -281,12 +281,17 @@
     .container .left, .container .right {
         padding: 10px;
     }
-
+    .conatiner .left{
+        height:20px;
+        widht:100%;
+    }
     .container .left ul li{
         display:none;
     }
     .container .left #pdf{
-        display:block;
+        display:flex;
+        justify-content: flex-start;
+        flex-item:flex-start;
     }
     .col-1 {
         margin-left: 2vh;
