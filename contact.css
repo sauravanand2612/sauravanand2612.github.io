@@ -334,7 +334,7 @@ h2 a {
 
 @media screen and (max-width: 768px) {
     .main1, .demo4 {
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     #main li a{
@@ -375,7 +375,7 @@ h2 a {
       margin: 0px 8px;
     }
     .main1, .demo4 {
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
     .main1 h1, .demo4 h1, h2 {
