@@ -321,6 +321,11 @@ h2 a {
     .main1 h1, .demo4 h1, h2 {
         font-size: 18px;
     }
+
+    .main2 , #demo3{
+        margin-left:10px;
+    }
+    
     p, label {
         font-size: 16px;
     }
