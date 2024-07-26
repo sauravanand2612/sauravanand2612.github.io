@@ -20,7 +20,32 @@ body {
     background-image: url('./images/background1.jpeg');
 }
 
-.context ul {
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  #main li {
+    margin: 0 15px;
+    font-weight: 750;
+  }
+  
+  #main li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 0.3s, text-decoration 0.3s;
+  }
+  
+  #main li a:hover,
+  #active {
+    color: cornflowerblue;
+    text-decoration: underline 3px yellow;
+  }
+  
+/* .context ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,7 +80,7 @@ body {
     color: cornflowerblue;
     text-decoration: 3px underline yellow;
     text-underline-offset: 3px;
-}
+} */
 
 .container {
     position: relative;
