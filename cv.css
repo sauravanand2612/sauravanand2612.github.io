@@ -282,7 +282,12 @@
         padding: 10px;
     }
 
-
+    .container .left ul li{
+        display:none;
+    }
+    .container .left #resume-download{
+        display:block;
+    }
     .col-1 {
         margin-left: 2vh;
         margin-right: 2vh;
