@@ -8,51 +8,57 @@
 
 
 <url>
-  <loc>https://sauravanand2612.github.io/cv.html</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <loc>https://sauravanand2612.github.io/</loc>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://sauravanand2612.github.io/index.html</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://sauravanand2612.github.io/about.html</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sauravanand2612.github.io/project.html</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sauravanand2612.github.io/cv.html</loc>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sauravanand2612.github.io/contact.html</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://sauravanand2612.github.io/documents/Anandsaurav_CV.pdf</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://sauravanand2612.github.io/index.html</loc>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 <url>
   <loc>https://sauravanand2612.github.io/documents/DNScacheposioning.pdf</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://sauravanand2612.github.io/documents/ACA_2DFFT_REPORT_ANAND_SAURAV.pdf</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://sauravanand2612.github.io/documents/ComputerArchitecture(ACA).pdf</loc>
-  <lastmod>2024-08-02T14:05:04+00:00</lastmod>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+
+<url>
+  <loc>https://sauravanand2612.github.io/documents/Anandsaurav_CV.pdf</loc>
+  <lastmod>2024-08-05T10:01:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>
